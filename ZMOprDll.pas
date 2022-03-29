@@ -366,14 +366,27 @@ begin
   Fn := Trim(FileName);
   if (Length(Fn) = 0) and (IncludeSpecs.Count > 0) then
     Fn := Trim(IncludeSpecs[0]);
-  if (Fn = '') or (ZipStream.Size = 0) then
+
+  // Edwin:
+  // - Fixed: Allow empty stream (Size = 0) to be added to the target .zip archive
+  // if (Fn = '') or (ZipStream.Size = 0) then
+  if Fn = '' then
+  // Edwin end
   begin
-    Result := ZM_Error({_LINE_}372, ZE_NothingToZip);
+    Result := ZM_Error({_LINE_}376, ZE_NothingToZip);
     Exit;
   end;
-  Result := DriveFolders.ExpandPath(Fn, Fn);
-  if Result < 0 then
-    Exit;
+
+  // Edwin:
+  // - Fixed: AddStreamToFile should not call DriveFolders.ExpandPath, otherwise you won't be able to
+  //   compress a file into the target zip archive into a relative path such as
+  //   `MyFolder1\MyFile1.txt' (relative to the root of the zip file).
+  //  Result := DriveFolders.ExpandPath(Fn, Fn);
+  //  if Result < 0 then
+  //    Exit;
+  Result := 0;
+  // Edwin end
+
   // strip drive etc like 1.79
   if ExtractFileDrive(Fn) <> '' then
     Fn := Copy(Fn, 3, Length(Fn) - 2);
