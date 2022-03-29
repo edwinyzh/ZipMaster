@@ -22,7 +22,7 @@ That's a sad news and I always want to thank Russell (and other contributors) fo
 This year (2022), I need to upgrade one of my projects which uses ZipMaster, and during the process I encountered several minor issues and I fixed them. Since there is nowhere I can send my PR's to (delphizip.org is unreachable now), I had to create this repository. Anyone is welcomed to summit your chances, as long as your code meets the following.
 
 # Some notes
-- My comments in the code starts with "Edwin:" to keep track of my changes so that I could find them using GExperts' GREP search.
+- My comments in the code starts with "Edwin:" for keeping track of my changes before putting this project to github.
 
 # Requirements for code contribution
 - Please don't break old Delphi compiler - I use XE4 but maybe we should keep the code compi-able by all Unicode Delphi compilers.
