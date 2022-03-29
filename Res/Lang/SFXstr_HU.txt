@@ -1,0 +1,93 @@
+// language id
+LANG_ID='0E 04'
+
+// fileexist dialog ================================================================
+// caption
+  SFX_Ttl_File=Fájl felülírása
+
+// buttons 
+  SFX_Btn_Yes=&Igen
+  SFX_Btn_No=&Nem
+// don't ask again check
+  SFX_Btn_DontAsk=Nem kérdez rá többször
+
+
+// main dialog =====================================================================
+// caption
+  SFX_Ttl_Main=Delphi Zip SFX32
+
+// extract folder label 
+  SFX_Btn_ExtractTo=&Kicsomagolás helye:
+// "files" label
+  SFX_Btn_Files=&Fájlok:
+// overwrite action label
+  SFX_Btn_Existing=Létezõ fájlok felülírása:
+// overwrite actions
+// confirm
+  SFX_Btn_OvrAsk=&Kérdezzen
+// skip
+  SFX_Btn_OvrSkip=&Ne írja felül
+// overwrite
+  SFX_Btn_OvrAll=&Írja felül
+// about button
+  SFX_Btn_About=&A DelZip-rõl
+// show files button
+  SFX_Btn_ShowFiles=&Fájllista
+// start extraction button
+  SFX_Btn_Start=&Start
+// close button
+  SFX_Btn_Close=K&ilépés
+
+
+// password dialog =================================================================
+// caption
+  SFX_Ttl_PWrd=Jelszó megadása...
+
+// buttons
+  SFX_Btn_Ok=OK
+  SFX_Btn_Cancel=&Mégsem
+
+// language dialog =================================================================
+// button
+  SFX_Btn_Select='Kiválaszt nyelv';
+
+// other strings ==================================================================
+
+  SFX_LVC_FILENAME='Fájlnév';
+  SFX_LVC_FILESIZE='Méret';
+
+  // error messages
+  SFX_ERR_CANNOTCLOSEFILE='Bezárás sikertelen ><';
+  SFX_ERR_ARCHIVE='Archiv olvasása sikertelen ><';
+  SFX_ERR_INVALIDFILENAME='Érvénytelen fájlnév.';
+  SFX_ERR_DIRECTORY='Hiba a könyvtár feldolgozásakor ><';
+  SFX_ERR_ZIPUNKNOWNCOMP='Ismeretlen tömörítés';
+  SFX_ERR_ARCHIVECORRUPTED='Az archív sérült, töltse le újra';
+  SFX_ERR_CANNOTOPENFILE='Fájl megnyitás sikertelen ><';
+  SFX_ERR_CANNOTWRITEFILE='Fájl írása sikertelen ><';
+  SFX_ERR_RUN_RUN='A program nem futtatható >< ><';
+  SFX_ERR_RUN_INST='Az alkalmazás nem installálható >< ><';
+  SFX_ERR_CRC32='CRC32 hiba a következõ fájlban: ><';
+
+  // message / dialog box titles
+  SFX_CAP_ERR='Hiba...';
+  SFX_CAP_APP='DelZip Self-Extractor';
+  SFX_CAP_BROWSE='Válasszon célkönyvtárat';
+  SFX_CAP_ABOUT='A DelZip Self-Extractor-ról';
+  SFX_CAP_FINISHED='Kicsomagolás kész.';
+  SFX_CAP_PASSWORD='Adja meg a jelszót ><:';
+
+  // messages
+  SFX_MSG_RUNCHECKBOX_RUN='Kicsomagolás után futtatás: >< ><';
+  SFX_MSG_RUNCHECKBOX_INST='Kicsomagolás után installálás: >< ><';
+  SFX_MSG_FILEEXISTS='>< már létezik, felülírható ?';
+  SFX_MSG_ALLEXTRACTED='Minden fájl sikerült kicsomagolni.';
+  SFX_MSG_SELNOTEXTRACTED='A kijelölt fájlok kicsomagolása nem sikerült.';
+  SFX_MSG_SOMENOTEXTRACTED='Néhány fájlt nem sikerült kicsomagolni.';
+  SFX_MSG_QUERYCANCEL='Meg kívánja szakítani a kicsomagolást?';
+  SFX_MSG_INSERTDISKVOLUME='Tegyen lemezt a(z) >< meghajtóba ><';
+
+  // about text
+  SFX_MSG_AUTHORS='Szerzõk';
+  SFX_MSG_CREDITS='Közremûködtek';
+  SFX_MSG_TRANSLATION=' ';

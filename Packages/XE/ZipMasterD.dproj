@@ -1,0 +1,121 @@
+        <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+                <PropertyGroup>
+                        <ProjectGuid>{B4FC4077-2369-4A6D-B77A-A0EF65964967}</ProjectGuid>
+                        <MainSource>ZipMasterD.dpk</MainSource>
+                        <Base>True</Base>
+                        <Config Condition="'$(Config)'==''">Debug</Config>
+                        <Platform>Win32</Platform>
+                        <AppType>Package</AppType>
+                        <FrameworkType>None</FrameworkType>
+                        <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+                        <ProjectVersion>12.3</ProjectVersion>
+                </PropertyGroup>
+                <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+                        <Base>true</Base>
+                </PropertyGroup>
+                <PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+                        <Cfg_1>true</Cfg_1>
+                        <CfgParent>Base</CfgParent>
+                        <Base>true</Base>
+                </PropertyGroup>
+                <PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+                        <Cfg_2>true</Cfg_2>
+                        <CfgParent>Base</CfgParent>
+                        <Base>true</Base>
+                </PropertyGroup>
+                <PropertyGroup Condition="'$(Base)'!=''">
+                        <DesignOnlyPackage>true</DesignOnlyPackage>
+                        <DCC_ImageBase>00400000</DCC_ImageBase>
+                        <GenPackage>true</GenPackage>
+                        <DllSuffix>15</DllSuffix>
+                        <DCC_UnitAlias>WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;WinTypes=Windows;WinProcs=Windows;$(DCC_UnitAlias)</DCC_UnitAlias>
+                        <DCC_TypedAtParameter>true</DCC_TypedAtParameter>
+                        <DCC_UnitSearchPath>..\..\;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+                        <DCC_Description>ZipMaster 1.9.2 </DCC_Description>
+                        <DCC_S>false</DCC_S>
+                        <DCC_N>false</DCC_N>
+                        <GenDll>true</GenDll>
+                        <DCC_OutputNeverBuildDcps>true</DCC_OutputNeverBuildDcps>
+                        <DCC_E>false</DCC_E>
+                        <DCC_DcuOutput>.\$(Config)</DCC_DcuOutput>
+                        <DCC_K>false</DCC_K>
+                        <DCC_F>false</DCC_F>
+                </PropertyGroup>
+                <PropertyGroup Condition="'$(Cfg_1)'!=''">
+                        <DCC_UnitSearchPath>..\..\;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+                        <DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+                        <DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+                        <DCC_DcuOutput>.\$(Config)</DCC_DcuOutput>
+                        <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+                        <DCC_DebugInformation>false</DCC_DebugInformation>
+                </PropertyGroup>
+                <PropertyGroup Condition="'$(Cfg_2)'!=''">
+                        <DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+                        <DCC_Optimize>false</DCC_Optimize>
+                        <DCC_GenerateStackFrames>true</DCC_GenerateStackFrames>
+                </PropertyGroup>
+                <ItemGroup>
+                        <DelphiCompile Include="ZipMasterD.dpk">
+                                <MainSource>MainSource</MainSource>
+                        </DelphiCompile>
+                        <DCCReference Include="..\Zipmaster.dcr"/>
+                        <DCCReference Include="DesignIDE.dcp"/>
+                        <DCCReference Include="ZipMasterR.dcp"/>
+                        <DCCReference Include="..\..\ZMReg.pas"/>
+                        <BuildConfiguration Include="Debug">
+                                <Key>Cfg_2</Key>
+                                <CfgParent>Base</CfgParent>
+                        </BuildConfiguration>
+                        <BuildConfiguration Include="Base">
+                                <Key>Base</Key>
+                        </BuildConfiguration>
+                        <BuildConfiguration Include="Release">
+                                <Key>Cfg_1</Key>
+                                <CfgParent>Base</CfgParent>
+                        </BuildConfiguration>
+                </ItemGroup>
+                <Import Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')" Project="$(BDS)\Bin\CodeGear.Delphi.Targets"/>
+                <Import Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')" Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj"/>
+                <ProjectExtensions>
+                        <Borland.Personality>Delphi.Personality.12</Borland.Personality>
+                        <Borland.ProjectType>Package</Borland.ProjectType>
+                        <BorlandProject>
+                                <Delphi.Personality>
+                                        <Source>
+                                                <Source Name="MainSource">ZipMasterD.dpk</Source>
+                                        </Source>
+                                        <VersionInfo>
+                                                <VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+                                                <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+                                                <VersionInfo Name="MajorVer">1</VersionInfo>
+                                                <VersionInfo Name="MinorVer">9</VersionInfo>
+                                                <VersionInfo Name="Release">2</VersionInfo>
+                                                <VersionInfo Name="Build">20</VersionInfo>
+                                                <VersionInfo Name="Debug">False</VersionInfo>
+                                                <VersionInfo Name="PreRelease">False</VersionInfo>
+                                                <VersionInfo Name="Special">False</VersionInfo>
+                                                <VersionInfo Name="Private">False</VersionInfo>
+                                                <VersionInfo Name="DLL">False</VersionInfo>
+                                                <VersionInfo Name="Locale">3081</VersionInfo>
+                                                <VersionInfo Name="CodePage">1252</VersionInfo>
+                                        </VersionInfo>
+                                        <VersionInfoKeys>
+                                                <VersionInfoKeys Name="CompanyName">DelphiZip</VersionInfoKeys>
+                                                <VersionInfoKeys Name="FileDescription">Freeware Delphi zip component</VersionInfoKeys>
+                                                <VersionInfoKeys Name="FileVersion">1.9.2.20</VersionInfoKeys>
+                                                <VersionInfoKeys Name="InternalName">TZipMaster</VersionInfoKeys>
+                                                <VersionInfoKeys Name="LegalCopyright">Copyright 2012, 2013 Russell Peters</VersionInfoKeys>
+                                                <VersionInfoKeys Name="LegalTrademarks"/>
+                                                <VersionInfoKeys Name="OriginalFilename">ZipMstr</VersionInfoKeys>
+                                                <VersionInfoKeys Name="ProductName">ZipMaster</VersionInfoKeys>
+                                                <VersionInfoKeys Name="ProductVersion">1.9.2</VersionInfoKeys>
+                                                <VersionInfoKeys Name="Comments"/>
+                                        </VersionInfoKeys>
+                                </Delphi.Personality>
+                                <Platforms>
+                                        <Platform value="Win32">True</Platform>
+                                </Platforms>
+                        </BorlandProject>
+                        <ProjectFileVersion>12</ProjectFileVersion>
+                </ProjectExtensions>
+        </Project>

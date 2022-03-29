@@ -1,0 +1,275 @@
+Delphi Zip
+Version 1.92
+  TZipMaster VCL originally by Chris Vleghert, Eric W. Engler.
+ Present Maintainers and Authors Roger Aelbrecht and Russell Peters.
+ Copyright (C) 1997-2002 Chris Vleghert and Eric W. Engler
+ Copyright (C) 1992-2008 Eric W. Engler
+ Copyright (C) 2009, 2010, 2011, 2012, 2013 Russell Peters and Roger Aelbrecht
+ Copyright (C) 2014, 2015 Russell Peters and Roger Aelbrecht
+   
+All rights reserved.
+For the purposes of Copyright and this license "DelphiZip" is the current
+ authors, maintainers and developers of its code:
+  Russell Peters and Roger Aelbrecht.
+
+Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+* Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+* DelphiZip reserves the names "DelphiZip", "ZipMaster", "ZipBuilder",
+   "DelZip" and derivatives of those names for the use in or about this
+   code and neither those names nor the names of its authors or
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED. IN NO EVENT SHALL DELPHIZIP, IT'S AUTHORS OR CONTRIBUTERS BE
+ LIABLE FOR ANYDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ CONTRACT, STRICT LIABILITY, OR TORT(INCLUDING NEGLIGENCE OR OTHERWISE)
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+
+contact: problems AT delphizip DOT org
+updates: http://www.delphizip.org
+
+DOES NOT support Delphi 4 or before (not tested before D7)
+
+If you already have an earlier version installed, remove it before you
+install this.  Make sure you rebuild the Component library with the updated
+ VCLs included with this release.
+
+
+This is a complete release, so you DO NOT need to have any prior   
+version before installing this release.
+
+Instructions for manual installation - don't know why you would want too but...
+ 
+
+This ZIP should go into a base directory of \ZipMstr192.
+
+
+IMPORTANT!
+----------
+You need to copy the redistributable modules to your desired
+directory on your development computer.  
+
+Copy \ZipMstr192\DLL\DelZip192.DLL to your Windows System directory.
+Copy \ZipMstr192\SFX\RES\dzsfx??.BIN to your Windows System directory. ??=language
+
+
+Unsupported Properties
+----------------------
+Since I normally use the latest Delphi release, sometimes new properties
+of Delphi's VCLs will get saved with DFM files.  Please tell it to
+"Ignore" and "Property not found" type of error you may see.
+
+Changed Event Signatures
+------------------------
+Because of support for larger files some handlers will now use int64.
+Please tell it to "ignore".
+
+Installation
+------------
+
+This is one of the biggest freeware software releases for Delphi and
+C++ Builder.  To get going quickly and correctly, please follow these
+instructions.  Read them over once before starting.  If you don't
+understand a step, get help before you start the install!
+
+
+1. You MUST install this package on a computer that has Delphi (any 
+   version D7 or above - D5 and D6 may be possible but untested).
+
+2. The VCLs included with this release are:
+      TZipMaster - the main ZIP support VCL
+
+    The files required to support these VCLs are located in the
+    VCL subdirectory  
+    You have two choices for how to proceed
+    (option A is recommended):
+
+	  A) add the directories \ZipMstr191 
+                  to your VCL search path
+         IMPORTANT! If you have earlier versions on
+         your system, you should remove it from the search path.
+                             or
+	  B) copy the files in \ZipMstr to another directory already
+         in your VCL search path
+
+    If you want to use option A, the instructions for this are
+    included below.  If you want option B, then please copy those
+    files now.
+  
+
+3.  Install the VCLs       
+
+    This procedure will install the VCLs into the IDE.  After
+    this, you will be able to see them on the "DelphiZip" tab.
+    Un-install old version(s) first.
+    If you are not installing into same directory as previous version then the old version 
+      must be completely removed. 
+
+  
+    Delphi before XE :
+      Here's some instructions that will install into a new package.
+    Preferred method
+      1) From the Delphi Packages directory 
+         a) open and build ZMstr192D?.dpk (where ? is Delphi version) Design and Run-Time package
+		 
+	Delphi XE or later :
+      1) From the Delphi Packages\XE? directory
+		 a) open ZipMaster.groupproj
+		 b) build ZipMasterR sub-project (run-time package) (x32 and x64)
+		 c) build and install ZipMasterD sub-project (design package)
+		 
+    OR MANUAL INSTALL
+      1) Menu | Component | Install Component...
+        a) Tab->Into New package
+        b)   Package file name:   ZMstr192
+        c)   Package description: Freeware Zip and Unzip package
+        d)   Unit Filename:  Choose Browse and select ZipMstr.pas 
+                             from the directory where you put it in.
+        e)   Click Ok
+
+	 ( Message "ZMstr192D?.bpl will be built then installed", Continue )
+
+	 2) Click No
+
+	 3) Menu |Comoponent | Install Component...
+		a) Tab->Into Existing package
+		b)   Unit Filename:  Choose Browse and select
+			ZipMstr.pas
+			ZMArgSplit.pas
+			ZMBaseOpr.pas
+			ZMBody.pas
+			ZMCoDec.pas
+			ZMCommand.pas
+			ZMCompat.pas
+			ZMCore.pas
+			ZMCRC.pas
+			ZMCtx.pas
+			ZMDelZip.pas
+			ZMDlg.pas
+			ZMDllLoad.pas
+			ZMDrv.pas
+			ZMEngine.pas
+			ZMEntryReader.pas
+			ZMFileOpr.pas
+			ZMFStream.pas
+			ZMHandler.pas
+			ZMLister.pas
+			ZMMatch.pas
+			ZMMFStream.pas
+			ZMMisc.pas
+			ZMMsg.pas
+			ZMOprCore.pas
+			ZMOprDeflate.pas
+			ZMOprDel.pas
+			ZMOprDll.pas
+			ZMOprFile.pas
+			ZMOprMerge.pas
+			ZMOprMod.pas
+			ZMOprMsgStr.pas
+			ZMOprUnzip.pas
+			ZMReg.pas.pas
+			ZMSFXInt.pas
+			ZMStructs.pas
+			ZMUnzipOpr.pas
+			ZMUTF8.pas
+			ZMUtils.pas
+			ZMWinFuncs.pas
+			ZMXcpt.pas
+			ZMZipBase.pas
+			ZMZipDirectory.pas
+			ZMZipEOC.pas
+			ZMZipMulti.pas
+			ZMZipReader.pas
+			ZMZipWriter.pas
+			ZMZLibExApi.pas
+			 from the directory where you put it in.
+		c)   Click Ok
+
+	( Message "ZMstr192.bpl will be built then installed", Continue )
+
+	 4) Click Yes
+
+       After the compilation a message should popup that TZipMaster19 
+         has been installed and registered.
+ 
+ 
+
+                            DELPHI DEMO
+
+   NOTE: You should have the compiler option "break on exception"
+   turned off because the demos that use the SortGrid VCL use 
+   exceptions to determine datatypes.  This is only a concern 
+   when running the demo programs from the IDE.
+
+1.  From the IDE, open the project *\ZipMstr192\Demos\Demo1\ZipDemo1.DPR.
+
+    Examine the forms and decide if you need to resize any of
+    the controls, or change the position of anything. This is
+    sometimes necessary if I developed the forms at a different
+    screen resolution than you are using.
+
+    The demo1 program is a fairly straight-forward example
+    of what you can do with this package!  Everything revolves
+    around the TSortGrid, which always shows you the contents 
+    of your ZIP archive.  Use right-click on a column header to
+    do an descending sort, or a left-click for an ascending sort.
+        
+	Note: Demos and Tools require either the installation path added to 
+	       search path or '..\..\' added to it.
+
+                  Deployment of Your Programs
+
+Any program you write using this package will require the Dll
+ DelZip192.DLL to be present of each user's
+hard disk.  You should have your install procedures put this
+file into the WINDOWS SYSTEM directory (which is named differently
+on some systems - especially WinNT systems).  If that isn't 
+possible, then you should put them into the same directory as 
+your .EXE program that uses them.
+
+Also, the dzsfx??.BIN module must be installed into the same
+directory as the DLLs.  This module is only needed if your
+application program needs to make .EXE archives.
+
+IMPORTANT: Any .EXE archives you make with this package do
+NOT need any supporting files on the end-user's computer!
+This is very handy!
+
+Of course, there are no distribution fees for the DLL, or
+any other part of the package.  This whole package is 
+freeware, but does have some minor distribution restrictions
+(mainly that you can't profit from the ZIP DLLs, and you need
+to document where users can get source code).  Please see 
+README.TXT for these restrictions.
+
+See README.TXT for more general information about this release,
+and also check out the DOC subdirectory.
+
+
+                Problem Reports or Suggestions
+
+We DO want to hear your ideas!  If you find a problem with
+any part of this project, or if you just have an idea for us
+to consider, send us e-mail!
+
+But, please make sure that your bug has not already been
+reported.  Check our "official" web sites often:
+
+Latest Versions and changes available at
+http://www.delphizip.org
+
+Amended and updated by
+R.Peters
+problems@delphizip.org 

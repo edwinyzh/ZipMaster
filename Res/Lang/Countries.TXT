@@ -1,0 +1,187 @@
+AFK; Afrikaans (South Africa); $0436; 1252
+ARA; Arabic (Saudi Arabia); $0401; 1256
+ARB; Arabic (Lebanon); $3001; 1256
+ARE; Arabic (Egypt); $0C01; 1256
+ARG; Arabic (Algeria); $1401; 1256
+ARH; Arabic (Bahrain); $3C01; 1256
+ARI; Arabic (Iraq); $0801; 1256
+ARJ; Arabic (Jordan); $2C01; 1256
+ARK; Arabic (Kuwait); $3401; 1256
+ARL; Arabic (Libya); $1001; 1256
+ARM; Arabic (Morocco); $1801; 1256
+ARO; Arabic (Oman); $2001; 1256
+ARQ; Arabic (Qatar); $4001; 1256
+ARS; Arabic (Syria); $2801; 1256
+ART; Arabic (Tunisia); $1C01; 1256
+ARU; Arabic (U.A.E.); $3801; 1256
+ARY; Arabic (Yemen); $2401; 1256
+AZC; Azerbaijani (Cyrillic, Azerbaijan); $082C; 1251
+AZE; Azerbaijani (Latin, Azerbaijan); $042C; 1254
+BAS; Bashkir (Russia); $046D; 1251
+BEL; Belarusian (Belarus); $0423; 1251
+BGR; Bulgarian (Bulgaria); $0402; 1251
+BRE; Breton (France); $047E; 1252
+BSB; Bosnian (Latin, Bosnia and Herzegovina); $141A; 1250
+BSC; Bosnian (Cyrillic, Bosnia and Herzegovina); $201A; 1251
+CAT; Catalan (Catalan); $0403; 1252
+CHS; Chinese (Simplified, PRC); $0804; 936
+CHT; Chinese (Traditional, Taiwan); $0404; 950
+COS; Corsican (France); $0483; 1252
+CSY; Czech (Czech Republic); $0405; 1250
+CYM; Welsh (United Kingdom); $0452; 1252
+DAN; Danish (Denmark); $0406; 1252
+DEA; German (Austria); $0C07; 1252
+DEC; German (Liechtenstein); $1407; 1252
+DEL; German (Luxembourg); $1007; 1252
+DES; German (Switzerland); $0807; 1252
+DEU; German (Germany); $0407; 1252
+DSB; Lower Sorbian (Germany); $082E; 1252
+ELL; Greek (Greece); $0408; 1253
+ENA; English (Australia); $0C09; 1252
+ENB; English (Caribbean); $2409; 1252
+ENC; English (Canada); $1009; 1252
+ENE; English (Singapore); $4809; 1252
+ENG; English (United Kingdom); $0809; 1252
+ENI; English (Ireland); $1809; 1252
+ENJ; English (Jamaica); $2009; 1252
+ENL; English (Belize); $2809; 1252
+ENM; English (Malaysia); $4409; 1252
+ENN; English (India); $4009; 1252
+ENP; English (Republic of the Philippines); $3409; 1252
+ENS; English (South Africa); $1C09; 1252
+ENT; English (Trinidad and Tobago); $2C09; 1252
+ENU; English (United States); $0409; 1252
+ENW; English (Zimbabwe); $3009; 1252
+ENZ; English (New Zealand); $1409; 1252
+ESA; Spanish (Panama); $180A; 1252
+ESB; Spanish (Bolivia); $400A; 1252
+ESC; Spanish (Costa Rica); $140A; 1252
+ESD; Spanish (Dominican Republic); $1C0A; 1252
+ESE; Spanish (El Salvador); $440A; 1252
+ESF; Spanish (Ecuador); $300A; 1252
+ESG; Spanish (Guatemala); $100A; 1252
+ESH; Spanish (Honduras); $480A; 1252
+ESI; Spanish (Nicaragua); $4C0A; 1252
+ESL; Spanish (Chile); $340A; 1252
+ESM; Spanish (Mexico); $080A; 1252
+ESN; Spanish (Spain, International Sort); $0C0A; 1252
+ESO; Spanish (Colombia); $240A; 1252
+ESP; Spanish (Spain, Traditional Sort); $040A; 1252
+ESR; Spanish (Peru); $280A; 1252
+ESS; Spanish (Argentina); $2C0A; 1252
+EST; Spanish (United States); $540A; 1252
+ESU; Spanish (Puerto Rico); $500A; 1252
+ESV; Spanish (Bolivarian Republic of Venezuela); $200A; 1252
+ESY; Spanish (Uruguay); $380A; 1252
+ESZ; Spanish (Paraguay); $3C0A; 1252
+ETI; Estonian (Estonia); $0425; 1257
+EUQ; Basque (Basque); $042D; 1252
+FAR; Persian; $0429; 1256
+FIN; Finnish (Finland); $040B; 1252
+FOS; Faroese (Faroe Islands); $0438; 1252
+FPO; Filipino (Philippines); $0464; 1252
+FRA; French (France); $040C; 1252
+FRB; French (Belgium); $080C; 1252
+FRC; French (Canada); $0C0C; 1252
+FRL; French (Luxembourg); $140C; 1252
+FRM; French (Monaco); $180C; 1252
+FRS; French (Switzerland); $100C; 1252
+FUL; Fulah (Latin, Senegal); $0867; 1252
+FYN; Frisian (Netherlands); $0462; 1252
+GLA; Scottish Gaelic (United Kingdom); $0491; 1252
+GLC; Galician (Galician); $0456; 1252
+GSW; Alsatian (France); $0484; 1252
+HAU; Hausa (Latin, Nigeria); $0468; 1252
+HAW; Hawaiian (United States); $0475; 1252
+HEB; Hebrew (Israel); $040D; 1255
+HRB; Croatian (Latin, Bosnia and Herzegovina); $101A; 1250
+HRV; Croatian (Croatia); $041A; 1250
+HSB; Upper Sorbian (Germany); $042E; 1252
+HUN; Hungarian (Hungary); $040E; 1250
+IBO; Igbo (Nigeria); $0470; 1252
+IND; Indonesian (Indonesia); $0421; 1252
+IRE; Irish (Ireland); $083C; 1252
+ISL; Icelandic (Iceland); $040F; 1252
+ITA; Italian (Italy); $0410; 1252
+ITS; Italian (Switzerland); $0810; 1252
+IUK; Inuktitut (Latin, Canada); $085D; 1252
+JPN; Japanese (Japan); $0411; 932
+KAL; Greenlandic (Greenland); $046F; 1252
+KIN; Kinyarwanda (Rwanda); $0487; 1252
+KOR; Korean (Korea); $0412; 949
+KUR; Central Kurdish (Iraq); $0492; 1256
+KYR; Kyrgyz (Kyrgyzstan); $0440; 1251
+LBX; Luxembourgish (Luxembourg); $046E; 1252
+LTH; Lithuanian (Lithuania); $0427; 1257
+LVI; Latvian (Latvia); $0426; 1257
+MKI; Macedonian (Former Yugoslav Republic of Macedonia); $042F; 1251
+MNN; Mongolian (Cyrillic, Mongolia); $0450; 1251
+MPD; Mapudungun (Chile); $047A; 1252
+MSB; Malay (Brunei Darussalam); $083E; 1252
+MSL; Malay (Malaysia); $043E; 1252
+MWK; Mohawk (Mohawk); $047C; 1252
+NLB; Dutch (Belgium); $0813; 1252
+NLD; Dutch (Netherlands); $0413; 1252
+NON; Norwegian, Nynorsk (Norway); $0814; 1252
+NOR; Norwegian, Bokmål (Norway); $0414; 1252
+NSO; Sesotho sa Leboa (South Africa); $046C; 1252
+OCI; Occitan (France); $0482; 1252
+PAN; Punjabi (Islamic Republic of Pakistan); $0846; 1256
+PLK; Polish (Poland); $0415; 1250
+PRS; Dari (Afghanistan); $048C; 1256
+PTB; Portuguese (Brazil); $0416; 1252
+PTG; Portuguese (Portugal); $0816; 1252
+QUB; Quechua (Bolivia); $046B; 1252
+QUE; Quechua (Ecuador); $086B; 1252
+QUP; Quechua (Peru); $0C6B; 1252
+QUT; K'iche (Guatemala); $0486; 1252
+RMC; Romansh (Switzerland); $0417; 1252
+ROM; Romanian (Romania); $0418; 1250
+RUS; Russian (Russia); $0419; 1251
+SAH; Sakha (Russia); $0485; 1251
+SIN; Sindhi (Islamic Republic of Pakistan); $0859; 1256
+SKY; Slovak (Slovakia); $041B; 1250
+SLV; Slovenian (Slovenia); $0424; 1250
+SMA; Sami, Southern (Norway); $183B; 1252
+SMB; Sami, Southern (Sweden); $1C3B; 1252
+SME; Sami, Northern (Norway); $043B; 1252
+SMF; Sami, Northern (Sweden); $083B; 1252
+SMG; Sami, Northern (Finland); $0C3B; 1252
+SMJ; Sami, Lule (Norway); $103B; 1252
+SMK; Sami, Lule (Sweden); $143B; 1252
+SMN; Sami, Inari (Finland); $243B; 1252
+SMS; Sami, Skolt (Finland); $203B; 1252
+SQI; Albanian (Albania); $041C; 1250
+SRB; Serbian (Cyrillic, Serbia and Montenegro (Former)); $0C1A; 1251
+SRL; Serbian (Latin, Serbia and Montenegro (Former)); $081A; 1250
+SRM; Serbian (Latin, Serbia); $241A; 1250
+SRN; Serbian (Cyrillic, Bosnia and Herzegovina); $1C1A; 1251
+SRO; Serbian (Cyrillic, Serbia); $281A; 1251
+SRP; Serbian (Latin, Montenegro); $2C1A; 1250
+SRQ; Serbian (Cyrillic, Montenegro); $301A; 1251
+SRS; Serbian (Latin, Bosnia and Herzegovina); $181A; 1250
+SVE; Swedish (Sweden); $041D; 1252
+SVF; Swedish (Finland); $081D; 1252
+SWK; Kiswahili (Kenya); $0441; 1252
+TAJ; Tajik (Cyrillic, Tajikistan); $0428; 1251
+THA; Thai (Thailand); $041E; 874
+TRK; Turkish (Turkey); $041F; 1254
+TSN; Setswana (Botswana); $0832; 1252
+TSN; Setswana (South Africa); $0432; 1252
+TTT; Tatar (Russia); $0444; 1251
+TUK; Turkmen (Turkmenistan); $0442; 1250
+TZM; Tamazight (Latin, Algeria); $085F; 1252
+UIG; Uyghur (PRC); $0480; 1256
+UKR; Ukrainian (Ukraine); $0422; 1251
+URD; Urdu (Islamic Republic of Pakistan); $0420; 1256
+UZB; Uzbek (Cyrillic, Uzbekistan); $0843; 1251
+UZB; Uzbek (Latin, Uzbekistan); $0443; 1254
+VAL; Valencian (Spain); $0803; 1252
+VIT; Vietnamese (Vietnam); $042A; 1258
+WOL; Wolof (Senegal); $0488; 1252
+XHO; isiXhosa (South Africa); $0434; 1252
+YOR; Yoruba (Nigeria); $046A; 1252
+ZHH; Chinese (Traditional, Hong Kong S.A.R.); $0C04; 950
+ZHI; Chinese (Simplified, Singapore); $1004; 936
+ZHM; Chinese (Traditional, Macao S.A.R.); $1404; 950
+ZUL; isiZulu (South Africa); $0435; 1252

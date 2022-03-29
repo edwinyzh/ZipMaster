@@ -1,0 +1,95 @@
+// language id
+LANG_ID='07 04'
+
+
+// fileexist dialog ================================================================
+// caption
+  SFX_Ttl_File=Überschreiben bestätigen
+
+// buttons 
+  SFX_Btn_Yes=&Ja
+  SFX_Btn_No=&Nein
+// don't ask again check
+  SFX_Btn_DontAsk=Nicht mehr &fragen
+
+
+// main dialog =====================================================================
+// caption
+  SFX_Ttl_Main=Delphi Zip SFX32
+
+// extract folder label 
+  SFX_Btn_ExtractTo=E&ntpacken in:
+// "files" label
+  SFX_Btn_Files=&Dateien:
+// overwrite action label
+  SFX_Btn_Existing=Vorhandene Dateien:
+// overwrite actions
+// confirm
+  SFX_Btn_OvrAsk=&Fragen
+// skip
+  SFX_Btn_OvrSkip=N&icht überschreiben
+// overwrite
+  SFX_Btn_OvrAll=Übe&rschreiben
+// about button
+  SFX_Btn_About=Üb&er DelZip...
+// show files button
+  SFX_Btn_ShowFiles=Dateien &zeigen
+// start extraction button
+  SFX_Btn_Start=&Start
+// close button
+  SFX_Btn_Close=Sch&ließen
+
+
+// password dialog =================================================================
+// caption
+  SFX_Ttl_PWrd=Kennwort eingeben:
+
+// buttons
+  SFX_Btn_Ok=Ok
+  SFX_Btn_Cancel=&Abbruch
+
+// language dialog =================================================================
+// button
+  SFX_Btn_Select='Wählen Sie Sprache vor';
+
+// other strings ==================================================================
+
+  SFX_LVC_FILENAME='Dateiname';
+  SFX_LVC_FILESIZE='Größe';
+
+  // error messages
+  SFX_ERR_CANNOTCLOSEFILE='Kann >< nicht schließen';
+  SFX_ERR_ARCHIVE='Fehler beim Lesen des Archivs ><.';
+  SFX_ERR_INVALIDFILENAME='Ungültiger Dateiname.';
+  SFX_ERR_DIRECTORY='Kann Verzeichnis >< nicht erstellen';
+  SFX_ERR_ZIPUNKNOWNCOMP='Unbekannter Kompressionstyp';
+  SFX_ERR_ARCHIVECORRUPTED='Fehlerhaftes Archiv, bitte versuchen Sie, es erneut zu downloaden.';
+  SFX_ERR_CANNOTOPENFILE='Kann >< nicht öffnen';
+  SFX_ERR_CANNOTWRITEFILE='Kann nicht nach >< schreiben';
+  SFX_ERR_RUN_RUN='Konnte >< >< nicht ausführen';
+  SFX_ERR_RUN_INST='Konnte >< >< nicht installieren';
+  SFX_ERR_CRC32='CRC32-Prüfsummenfehler in ><';
+
+  // message / dialog box titles
+  SFX_CAP_ERR='Fehler';
+  SFX_CAP_APP='DelZip Selbstentpackendes Archiv';
+  SFX_CAP_BROWSE='Bitte wählen Sie das Zielverzeichnis';
+  SFX_CAP_ABOUT='Über DelZip Selbstentpackendes Archiv...';
+  SFX_CAP_FINISHED='Entpacken abgeschlossen.';
+  SFX_CAP_PASSWORD='Kennwort für >< eingeben:';
+
+  // messages
+  SFX_MSG_RUNCHECKBOX_RUN='Nach dem Entpacken ausführen: >< ><';
+  SFX_MSG_RUNCHECKBOX_INST='Nach dem Entpacken installieren: >< ><';
+  SFX_MSG_FILEEXISTS='Existierende Datei >< überschreiben?';
+  SFX_MSG_ALLEXTRACTED='Alle Dateien wurden entpackt.';
+  SFX_MSG_SELNOTEXTRACTED='Die markierten Dateien konnten nicht entpackt werden.';
+  SFX_MSG_SOMENOTEXTRACTED='Einige Dateien konnten nicht entpackt werden.';
+  SFX_MSG_QUERYCANCEL='Wollen Sie das Entpacken abbrechen?';
+  SFX_MSG_INSERTDISKVOLUME='Bitte legen Sie Diskette >< in Laufwerk >< ein';
+
+  // about text
+  SFX_MSG_AUTHORS='Die Autoren';
+  SFX_MSG_CREDITS='Credits an';
+  SFX_MSG_TRANSLATION=' ';
+

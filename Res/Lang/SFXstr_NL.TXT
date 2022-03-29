@@ -1,0 +1,93 @@
+// language id
+LANG_ID='13 04'
+
+// fileexist dialog ================================================================
+// caption
+  SFX_Ttl_File=Bevestiging vervangen
+
+// buttons 
+  SFX_Btn_Yes=&Ja
+  SFX_Btn_No=&Neen
+// don't ask again check
+  SFX_Btn_DontAsk=Niet &opnieuw vragen
+
+
+// main dialog =====================================================================
+// caption
+  SFX_Ttl_Main=Delphi/BCB Zip SFX32
+
+// extract folder label 
+  SFX_Btn_ExtractTo=&Extraheren naar:
+// "files" label
+  SFX_Btn_Files=&Bestanden:
+// overwrite action label
+  SFX_Btn_Existing=Bestaande bestanden:
+// overwrite actions
+// confirm
+  SFX_Btn_OvrAsk=Be&vestigen
+// skip
+  SFX_Btn_OvrSkip=&Niet vervangen
+// overwrite
+  SFX_Btn_OvrAll=&Vervangen
+// about button
+  SFX_Btn_About=&About DelZip...
+// show files button
+  SFX_Btn_ShowFiles=Bestanden &tonen
+// start extraction button
+  SFX_Btn_Start=&Start
+// close button
+  SFX_Btn_Close=S&luiten
+
+// password dialog =================================================================
+// caption
+  SFX_Ttl_PWrd=Geef wachtwoord...
+
+// buttons
+  SFX_Btn_Ok=Ok
+  SFX_Btn_Cancel=&Annuleren
+
+// language dialog =================================================================
+// button
+  SFX_Btn_Select='Kies Uw taal';
+
+// other strings ==================================================================
+
+  SFX_LVC_FILENAME='Bestandsnaam';
+  SFX_LVC_FILESIZE='Grootte';
+
+  // error messages
+  SFX_ERR_CANNOTCLOSEFILE='Kan >< niet sluiten';
+  SFX_ERR_ARCHIVE='Fout bij lezen van archief ><';
+  SFX_ERR_INVALIDFILENAME='Ongeldige bestandsnaam.';
+  SFX_ERR_DIRECTORY='Fout in map ><';
+  SFX_ERR_ZIPUNKNOWNCOMP='Compressie type onbekend';
+  SFX_ERR_ARCHIVECORRUPTED='Structuur van archief is corrupt, probeer het bestand opnieuw te downloaden.';
+  SFX_ERR_CANNOTOPENFILE='Kan >< niet openen';
+  SFX_ERR_CANNOTWRITEFILE='Fout bij schrijven van ><';
+  SFX_ERR_RUN_RUN='Kan >< >< niet uitvoeren';
+  SFX_ERR_RUN_INST='Kan >< >< niet installeren';
+  SFX_ERR_CRC32='CRC32 Fout in ><';
+
+  // message / dialog box titles
+  SFX_CAP_ERR='Fout...';
+  SFX_CAP_APP='DelBCBZip Self-Extractor';
+  SFX_CAP_BROWSE='Kies de bestemmingsmap';
+  SFX_CAP_ABOUT='About DelBCBZip Self-Extractor...';
+  SFX_CAP_FINISHED='Einde.';
+  SFX_CAP_PASSWORD='Geef wachtwoord voor ><:';
+
+  // messages
+  SFX_MSG_RUNCHECKBOX_RUN='Uitvoeren na extraheren: >< ><';
+  SFX_MSG_RUNCHECKBOX_INST='Installeer na extraheren: >< ><';
+  SFX_MSG_FILEEXISTS='>< bestaat al, vervangen?';
+  SFX_MSG_ALLEXTRACTED='Alle bestanden zijn ge-extraheerd.';
+  SFX_MSG_SELNOTEXTRACTED='De geselekteerde bestand(en) konden niet ge-extraheerd worden.';
+  SFX_MSG_SOMENOTEXTRACTED='Sommige bestand(en) konden niet ge-extraheerd worden.';
+  SFX_MSG_QUERYCANCEL='Wil U het extraheren annuleren?';
+  SFX_MSG_INSERTDISKVOLUME='Plaats disk volume >< in drive ><';
+
+  // about text
+  SFX_MSG_AUTHORS='The authors';
+  SFX_MSG_CREDITS='Credits to';
+  SFX_MSG_TRANSLATION=' ';
+

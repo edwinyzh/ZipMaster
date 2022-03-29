@@ -1,0 +1,163 @@
+  Frequently Asked Questions About Fonts
+  ----------------------------------------------------------------------
+  Compiled by Norman Walsh
+  Copyright (C) 1992, 93 by Norman Walsh .
+  
+Subject: Table of Contents
+
+  1. General Information
+    1.1. Font Houses
+    1.2. What's the difference between all these font formats?
+    1.3. What about "Multiple Master" fonts?
+    1.4. Is there a methodology to describe and classify typefaces?
+    1.5. What is the "f" shaped "s" called?
+    1.6. What about "Colonial" Typefaces?
+    1.7. Where can I get ... fonts.
+    1.8. Where can I get fonts for non-Roman alphabets?
+    1.10. How can I convert my ... font to ... format?
+
+Subject: 1. General Information
+  
+  Many FAQs, including this one, are available by anonymous ftp from
+  rtfm.mit.edu in the directory pub/usenet/news.answers.  Each posted
+  section of the FAQ is archived under the name that appears in the
+  "Archive-name" header at the top of the article.
+  
+  This FAQ is a work in progress.  If you have any suggestions, I would be
+  delighted to hear them.
+  
+  This FAQ is maintained in TeXinfo format.  A Perl script constructs the
+  postable FAQ from the TeXinfo sources.  TeX DVI, PostScript, and Info
+  versions of this FAQ are available from ftp.shsu.edu in
+  /tex-archive/help/comp-fonts-FAQ.  A "Gopher" server is also maintained
+  at shsu.edu which can provide interactive access to the FAQ.  Finally,
+  an online, hypertext version of the FAQ is maintained (experimentally)
+  on jasper.ora.com where an HTTP server runs.  For example, point
+  XMosaic (or a similar WWW browser) to http://jasper.ora.com/.
+  
+  The posted version of the FAQ is organized in a quasi-digest format so
+  that it is easy to find the questions you are interested in.  All
+  questions that appear in the table of contents can be found by searching
+  for the word "Subject:" followed by the question number.
+  
+  The "TeXinfo" distribution from the Free Software Foundation contains a
+  program called "Info" that can be used to read the Info version of the
+  FAQ in a hypertext manner.  The "TeXinfo" distribution can be obtained
+  from prep.ai.mit.edu in the /pub/gnu directory.  At the time of this
+  writing, texinfo-2.16.tar.gz is the most recent version.  Info files
+  can also be read in hypertext form by GNU Emacs.
+  
+  Future versions of the FAQ will make more use of the hypertext
+  capabilities provided by the Info format.  At present, the FAQ is
+  organized as a simple tree.  A plain ASCII, postable version of the FAQ
+  will always be maintained.
+  
+  All trademarks used in this document are the trademarks of their
+  respective owners.
+  
+  Standard disclaimers apply.
+  
+Subject: 1.1. Font Houses
+  
+  This section will be expanded on in the future.  It contains notes about
+  various commercial font houses.
+  
+  Compugraphic
+  ============
+  
+  See "Miles, Agfa Division"
+  
+  Miles, Agfa Division
+  ====================
+  
+  Compugraphic which was for a while the Compugraphic division of Agfa,
+  is now calling itself "Miles, Agfa Division" (yes, the Miles drug
+  company), since CG's off-shore parent Agfa has been absorbed by Miles.
+  So typographically speaking, Compugraphic, CG, Agfa, A-G ag, and Miles
+  all refer to the same company and font library. Their proprietary fonts
+  are still CG Xyz, but the name is Miles Agfa.
+  
+Subject: 1.2. What's the difference between all these font formats?
+  
+  This question is not trivial to answer.  It's analogous to asking what
+  the difference is between various graphics image file formats.  The
+  short, somewhat pragmatic answer, is simply that they are different
+  ways of representing the same "information" and some of them will work
+  with your software/printer and others won't.
+  
+  At one level, there are two major sorts of fonts: bitmapped and outline
+  (scalable).  Bitmapped fonts are falling out of fashion as various
+  outline technologies grow in popularity and support.
+  
+  Bitmapped fonts represent each character as a rectangular grid of
+  pixels.  The bitmap for each character indicates precisely what pixels
+  should be on and off.  Printing a bitmapped character is simply a
+  matter of blasting the right bits out to the printer.  There are a
+  number of disadvantages to this approach.  The bitmap represents a
+  particular instance of the character at a particular size and
+  resolution.  It is very difficult to change the size, shape, or
+  resolution of a bitmapped character without significant loss of quality
+  in the image.  On the other hand, it's easy to do things like shading
+  and filling with bitmapped characters.
+  
+  Outline fonts represent each character mathematically as a series of
+  lines, curves, and 'hints'.  When a character from an outline font is
+  to be printed, it must be 'rasterized' into a bitmap "on the fly".
+  PostScript printers, for example, do this in the print engine.  If the
+  "engine" in the output device cannot do the rasterizing, some front end
+  has to do it first.  Many of the disadvantages that are inherent in the
+  bitmapped format are not present in outline fonts at all.  Because an
+  outline font is represented mathematically, it can be drawn at any
+  reasonable size.  At small sizes, the font renderer is guided by the
+  'hints' in the font; at very small sizes, particularly on
+  low-resolution output devices such as screens, automatically scaled
+  fonts become unreadable, and hand-tuned bitmaps are a better choice (if
+  they are available).  Additionally, because it is rasterized "on
+  demand," the font can be adjusted for different resolutions and 'aspect
+  ratios'.
+  
+  Werenfried Spit adds the following remark:
+  
+  Well designed fonts are not scalable. I.e. a well designed 5pt font is
+  not simply its 10pt counterpart 50% scaled down. (One can verify this
+  by blowing up some small print in a copier and compare it with large
+  print; or see the example for computer modern in D.E. Knuth's TeXbook.)
+  Although this fact has no direct implications for any of the two
+  methods of font representation it has an indirect one: users and word
+  processor designers tend to blow up their 10pt fonts to 20pt or scale
+  them down to 5pt given this possibility.  Subtle details, but well...
+  
+  LaserJet .SFP and .SFL files, TeX PK, PXL, and GF files, Macintosh
+  Screen Fonts, and GEM .GFX files are all examples of bitmapped font
+  formats.
+  
+  PostScript Type 1, Type 3, and Type 5 fonts, Nimbus Q fonts, TrueType
+  fonts, Sun F3, MetaFont .mf files, and LaserJet .SFS files are all
+  examples of outline font formats.
+  
+  Neither of these lists is even close to being exhaustive.
+  
+  To complicate the issue further, identical formats on different
+  platforms are not necessarily the same.  For example Type 1 fonts on
+  the Macintosh are not directly usable under MS-DOS or Unix, and
+  vice-versa.
+  
+  It has been pointed out that the following description shows signs of
+  its age (for example, the eexec encryption has been thoroughly hacked).
+  I don't dispute the observation and I encourage anyone with the
+  knowledge and time to submit a more up to date description.
+  
+  It has further been suggested that this commentary is biased toward
+  Kingsley/ATF.  The omission of details about Bitstream (and possibly
+  Bauer) may be considered serious since their software lies inside many
+  3rd-party PostScript interpreters.
+  
+  The moderators of this FAQ would gladly accept other descriptions/
+  explanations/viewpoints on the issues discussed in this (and every
+  other) section.
+  
+  [Ed Note: Liam R. E. Quin supplied many changes to the following
+  section in an attempt to bring it up to date.  Hopefully it is a better
+  reflection of the state of the world today (12/07/92) than it was in
+  earlier FAQs]
+

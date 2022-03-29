@@ -1,0 +1,92 @@
+// language id
+LANG_ID='06 04'
+
+// fileexist dialog ================================================================
+// caption
+  SFX_Ttl_File=Godkend Overskriv
+
+// buttons 
+  SFX_Btn_Yes=&Ja
+  SFX_Btn_No=&Nej
+// don't ask again check
+  SFX_Btn_DontAsk=&Spørg ikke igen
+
+
+// main dialog =====================================================================
+// caption
+  SFX_Ttl_Main=Delphi Zip SFX32
+
+// extract folder label 
+  SFX_Btn_ExtractTo=&Udpak til:
+// "files" label
+  SFX_Btn_Files=&Filer:
+// overwrite action label
+  SFX_Btn_Existing=Eksisterende filer:
+// overwrite actions
+// confirm
+  SFX_Btn_OvrAsk=S&pørg
+// skip
+  SFX_Btn_OvrSkip=&Overskriv ikke
+// overwrite
+  SFX_Btn_OvrAll=O&verskriv
+// about button
+  SFX_Btn_About=Om &DelZip...
+// show files button
+  SFX_Btn_ShowFiles=Vis &filer
+// start extraction button
+  SFX_Btn_Start=&Start
+// close button
+  SFX_Btn_Close=&Luk
+
+// password dialog =================================================================
+// caption
+  SFX_Ttl_PWrd=Indtast Kodeord...
+
+// buttons
+  SFX_Btn_Ok=Ok
+  SFX_Btn_Cancel=&Annuller
+
+// language dialog =================================================================
+// button
+  SFX_Btn_Select='Sluttet sprog';
+
+// other strings ==================================================================
+
+  SFX_LVC_FILENAME='Filnavn';
+  SFX_LVC_FILESIZE='Størrelse';
+
+  // error messages
+  SFX_ERR_CANNOTCLOSEFILE='Kan ikke lukke ><';
+  SFX_ERR_ARCHIVE='Fejl ved læsning af arkiv ><.';
+  SFX_ERR_INVALIDFILENAME='Ugyldigt filnavn.';
+  SFX_ERR_DIRECTORY='Fejl i mappe ><';
+  SFX_ERR_ZIPUNKNOWNCOMP='Ukendt kompressions type';
+  SFX_ERR_ARCHIVECORRUPTED='Arkivet er kurrupt, prøv venligst at downloade filen igen.';
+  SFX_ERR_CANNOTOPENFILE='Kan ikke åbne ><';
+  SFX_ERR_CANNOTWRITEFILE='Fejl ved skriv af ><';
+  SFX_ERR_RUN_RUN='Kunne ikke køre >< ><';
+  SFX_ERR_RUN_INST='Kunne ikke installere >< ><';
+  SFX_ERR_CRC32='CRC32 Error in ><';
+
+  // message / dialog box titles
+  SFX_CAP_ERR='Fejl..';
+  SFX_CAP_APP='DelZip selv-udpakker';
+  SFX_CAP_BROWSE='Vælg destinations mappen';
+  SFX_CAP_ABOUT='Om DelZip selv-udpakker...';
+  SFX_CAP_FINISHED='Færdig.';
+  SFX_CAP_PASSWORD='Indtast kodeord for ><:';
+
+  // messages
+  SFX_MSG_RUNCHECKBOX_RUN='Kør, efter udpakning: >< ><';
+  SFX_MSG_RUNCHECKBOX_INST='Installer, efter udpakning: >< ><';
+  SFX_MSG_FILEEXISTS='>< findes allerede, overskriv ?';
+  SFX_MSG_ALLEXTRACTED='Alle filer blev pakket ud.';
+  SFX_MSG_SELNOTEXTRACTED='De valgte fil(er) kunne ikke pakkes ud.';
+  SFX_MSG_SOMENOTEXTRACTED='Nogle fil(er) kunne ikke pakkes ud.';
+  SFX_MSG_QUERYCANCEL='Ønsker du at afbryde udpakningen?';
+  SFX_MSG_INSERTDISKVOLUME='Indsæt venligst disk volume >< i drev ><';
+
+  // about text
+  SFX_MSG_AUTHORS='The authors';
+  SFX_MSG_CREDITS='Credits to';
+  SFX_MSG_TRANSLATION='Danish translation by Carsten S. Rasmussen.';

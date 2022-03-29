@@ -1,0 +1,25 @@
+
+Notes on debugging your application using TZipMaster or TZipBuilder:
+
+
+If there's anything wrong with your event handler procedures,
+you may get an error message from Windows saying something
+is wrong with one of the DLLs.
+
+
+This is because the DLLs become the "active program" when they
+are busy, and your event handlers are "slave" functions/procedures.
+Any serious errors in your event handlers will be reported as 
+problems with the "active program", which is the DLL.
+
+
+I made a special ability for you to "Trace" thru the DLLs! This 
+does not require any knowledge of the C language, and you don't
+need the source code. The DLL's have a built-in ability to report
+their status at various key points and you can see these status
+messages by hooking the OnMessage event. Just set the Trace property
+to True, hook the OnMessage event handler, and you can see what is
+going on inside the DLLs!
+
+Eric Engler
+englere@abraxis.com

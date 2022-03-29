@@ -1,0 +1,96 @@
+// language id, hexadecimal values!
+LANG_ID='16 04'
+
+// fileexist dialog ================================================================
+// caption
+  SFX_Ttl_File=Confirmar substituiзгo
+
+// buttons
+  SFX_Btn_Yes=&Sim
+  SFX_Btn_No=&Nгo
+// don't ask again check
+  SFX_Btn_DontAsk=Nгo perguntar novamente
+
+
+// main dialog =====================================================================
+// caption
+  SFX_Ttl_Main=Delphi Zip SFX32
+
+// extract folder label
+  SFX_Btn_ExtractTo=E&xtrair para:
+// "files" label
+  SFX_Btn_Files=&Arquivos:
+// overwrite action label
+  SFX_Btn_Existing=Arquivos existentes:
+// overwrite actions
+// confirm
+  SFX_Btn_OvrAsk=&Confirmar
+// skip
+  SFX_Btn_OvrSkip=&Nгo sobreescrever
+// overwrite
+  SFX_Btn_OvrAll=&Sobreescrever
+// about button
+  SFX_Btn_About=So&bre DelZip...
+// show files button
+  SFX_Btn_ShowFiles=&Mostrar Arquivos
+// start extraction button
+  SFX_Btn_Start=&Iniciar
+// close button
+  SFX_Btn_Close=Ence&rrar
+
+
+// password dialog =================================================================
+// caption
+  SFX_Ttl_PWrd=Informe a senha...
+
+// buttons
+  SFX_Btn_Ok=Ok
+  SFX_Btn_Cancel=&Cancelar
+
+
+// language dialog =================================================================
+// button
+  SFX_Btn_Select='Seleto lнngua';
+
+
+// strings =======================================================================
+
+  SFX_LVC_FILENAME='Nome';
+  SFX_LVC_FILESIZE='Tamanho';
+
+  // error messages
+  SFX_ERR_CANNOTCLOSEFILE='Nгo conseguiu fechar ><';
+  SFX_ERR_ARCHIVE='Erro ao ler o arquivo ><';
+  SFX_ERR_INVALIDFILENAME='Nome de arquivo invбlido.';
+  SFX_ERR_DIRECTORY='Erro no diretуrio ><';
+  SFX_ERR_ZIPUNKNOWNCOMP='Tipo de compressгo desconhecida';
+  SFX_ERR_ARCHIVECORRUPTED='Archivo corrompido, por favor tente baixб-lo novamente.';
+  SFX_ERR_CANNOTOPENFILE='Nгo conseguiu abrir ><';
+  SFX_ERR_CANNOTWRITEFILE='Erro gravando ><';
+  SFX_ERR_RUN_RUN='Nгo conseguiu executar >< ><';
+  SFX_ERR_RUN_INST='Nгo conseguiu instalar >< ><';
+  SFX_ERR_CRC32='CRC32 Erro em ><';
+
+  // message / dialog box titles
+  SFX_CAP_ERR='Erro...';
+  SFX_CAP_APP='DelZip Self-Extractor';
+  SFX_CAP_BROWSE='Por favor, escolha o diretуrio de destino';
+  SFX_CAP_ABOUT='Sobre o DelZip Self-Extractor...';
+  SFX_CAP_FINISHED='Terminado.';
+  SFX_CAP_PASSWORD='Senha para ><:';
+
+  // messages
+  SFX_MSG_RUNCHECKBOX_RUN='Apуs extrair, executar: >< ><';
+  SFX_MSG_RUNCHECKBOX_INST='Apуs extrair, instalar: >< ><';
+  SFX_MSG_FILEEXISTS='>< jб existe, sobreescrever ?';
+  SFX_MSG_ALLEXTRACTED='Todos os arquivos foram extraнdos.';
+  SFX_MSG_SELNOTEXTRACTED='Nгo foi possнvel extrair o(s) arquivo(s) selecionado(s).';
+  SFX_MSG_SOMENOTEXTRACTED='Nгo foi possнvel extrair alguns arquivos.';
+  SFX_MSG_QUERYCANCEL='Deseja cancelar a extraзгo?';
+  SFX_MSG_INSERTDISKVOLUME='Por favor, insira o disco >< no drive: ><';
+
+  // about text
+  SFX_MSG_AUTHORS='The authors';
+  SFX_MSG_CREDITS='Credits to';
+  SFX_MSG_TRANSLATION='Brazilian Portuguese translation by Celso Malheiro.';
+

@@ -1,0 +1,96 @@
+// language id
+LANG_ID='12 04'
+// use korean codepage with brcc32
+//BRCC32_FLAGS=-c0949
+
+// fileexist dialog ================================================================
+// caption
+  SFX_Ttl_File=덮어쓰기 확인
+
+// buttons 
+  SFX_Btn_Yes=예 (&Y)
+  SFX_Btn_No=아니오 (&N)
+// don't ask again check
+  SFX_Btn_DontAsk=되묻지 않기 (&a)
+
+
+// main dialog =====================================================================
+// caption
+  SFX_Ttl_Main=Delphi Zip SFX32
+
+// extract folder label 
+  SFX_Btn_ExtractTo=풀기 위치 (&E):
+// "files" label
+  SFX_Btn_Files=파일 (&F):
+// overwrite action label
+  SFX_Btn_Existing=있는 파일들:
+// overwrite actions
+// confirm
+  SFX_Btn_OvrAsk=확인 (&C)
+// skip
+  SFX_Btn_OvrSkip=덮어쓰지 않기 (&D)
+// overwrite
+  SFX_Btn_OvrAll=덮어쓰기 (&O)
+// about button
+  SFX_Btn_About=정보(&A) ...
+// show files button
+  SFX_Btn_ShowFiles=파일보기(&f)
+// start extraction button
+  SFX_Btn_Start=시작 (&S)
+// close button
+  SFX_Btn_Close=닫기 (&X)
+
+
+// password dialog =================================================================
+// caption
+  SFX_Ttl_PWrd=암호입력...
+
+// buttons
+  SFX_Btn_Ok=확인
+  SFX_Btn_Cancel=취소(&X)
+
+// language dialog =================================================================
+// button
+  SFX_Btn_Select=' ';
+
+// other strings ==================================================================
+
+  SFX_LVC_FILENAME='파일이름';
+  SFX_LVC_FILESIZE='크기';
+
+  // error messages
+  SFX_ERR_CANNOTCLOSEFILE='닫을 수 없음 ><';
+  SFX_ERR_ARCHIVE='압축읽기 에러 ><';
+  SFX_ERR_INVALIDFILENAME='파일이름 에러';
+  SFX_ERR_DIRECTORY='디렉토리에서 에러 ><';
+  SFX_ERR_ZIPUNKNOWNCOMP='알려지지 않은 압축형식';
+  SFX_ERR_ARCHIVECORRUPTED='압축파일이 손상되었습니다. 파일을 다시 다운로드 받으세요.';
+  SFX_ERR_CANNOTOPENFILE='열 수 없음 ><';
+  SFX_ERR_CANNOTWRITEFILE='>< 를 쓰는 동안 에러발생';
+  SFX_ERR_RUN_RUN='실행할 수 없음 >< ><';
+  SFX_ERR_RUN_INST='설치할 수 없음 >< ><';
+  SFX_ERR_CRC32='CRC32 Error in ><';
+
+  // message / dialog box titles
+  SFX_CAP_ERR='에러...';
+  SFX_CAP_APP='DelZip Self-Extractor';
+  SFX_CAP_BROWSE='대상 디렉토리를 선택하시오.';
+  SFX_CAP_ABOUT='DelZip Self-Extractor 정보 ...';
+  SFX_CAP_FINISHED='마침.';
+  SFX_CAP_PASSWORD='다음의 암호입력 ><:';
+
+  // messages
+  SFX_MSG_RUNCHECKBOX_RUN='푼 후 실행: >< ><';
+  SFX_MSG_RUNCHECKBOX_INST='푼 후 설치: >< ><';
+  SFX_MSG_FILEEXISTS='>< 이미 있습니다. 덮어쓸까요 ?';
+  SFX_MSG_ALLEXTRACTED='모든 파일 압축이 풀렸습니다.';
+  SFX_MSG_SELNOTEXTRACTED='몇몇 선택된 파일의 압축이 풀리지 않았습니다.';
+  SFX_MSG_SOMENOTEXTRACTED='몇몇 파일의 압축이 풀리지 않았습니다.';
+  SFX_MSG_QUERYCANCEL='압축 풀기를 취소하시겠습니까?';
+  SFX_MSG_INSERTDISKVOLUME='볼륨이 >< 인 디스크를 넣으세요. in drive: ><';
+
+  // about text
+  SFX_MSG_AUTHORS='The authors';
+  SFX_MSG_CREDITS='Credits to';
+  SFX_MSG_TRANSLATION=' ';
+

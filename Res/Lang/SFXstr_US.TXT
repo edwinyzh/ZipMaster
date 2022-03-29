@@ -1,0 +1,108 @@
+// language id
+LANG_ID='09 04'
+
+// fileexist dialog ================================================================
+// caption
+  SFX_Ttl_File=Confirm overwrite
+
+// buttons 
+  SFX_Btn_Yes=&Yes
+  SFX_Btn_No=&No
+// don't ask again check
+  SFX_Btn_DontAsk=Don't &ask again
+
+
+// main dialog =====================================================================
+// caption
+  SFX_Ttl_Main=DelphiZip ZipMaster SFX32
+
+// extract folder label 
+  SFX_Btn_ExtractTo=&Extract to:
+// "files" label
+  SFX_Btn_Files=&Files:
+// overwrite action label
+  SFX_Btn_Existing=Existing files:
+// overwrite actions
+// confirm
+  SFX_Btn_OvrAsk=&Confirm
+// skip
+  SFX_Btn_OvrSkip=&Don't overwrite
+// overwrite
+  SFX_Btn_OvrAll=&Overwrite
+// about button
+  SFX_Btn_About=&About DelZip...
+// show files button
+  SFX_Btn_ShowFiles=Show &files
+// start extraction button
+  SFX_Btn_Start=&Start
+// close button
+  SFX_Btn_Close=C&lose
+
+
+// password dialog =================================================================
+// caption
+  SFX_Ttl_PWrd=Enter password...
+
+// buttons
+  SFX_Btn_Ok=Ok
+  SFX_Btn_Cancel=&Cancel
+
+// language dialog =================================================================
+// button
+  SFX_Btn_Select='Select Language';
+
+
+// messages ========================================================================
+
+  SFX_LVC_FILENAME='Filename';
+  SFX_LVC_FILESIZE='Size';
+
+  // error messages
+  SFX_ERR_CANNOTCLOSEFILE='Cannot close ><';
+  SFX_ERR_ARCHIVE='Error reading archive ><';
+  SFX_ERR_INVALIDFILENAME='Invalid filename.';
+  SFX_ERR_DIRECTORY='Error in directory ><';
+  SFX_ERR_ZIPUNKNOWNCOMP='Unknown compression type';
+  SFX_ERR_ARCHIVECORRUPTED='Archive corrupted, please try to download this file again.';
+  SFX_ERR_CANNOTOPENFILE='Cannot open ><';
+  SFX_ERR_CANNOTWRITEFILE='Cannot write to ><';
+  SFX_ERR_RUN_RUN='Couldn''t run >< ><';
+  SFX_ERR_RUN_INST='Couldn''t install >< ><';
+  SFX_ERR_CRC32='CRC32 Error in ><';
+
+  // message / dialog box titles
+  SFX_CAP_ERR='Error...';
+  SFX_CAP_APP='DelZip Self-Extractor';
+  SFX_CAP_BROWSE='Please choose the destination directory';
+  SFX_CAP_ABOUT='About DelZip Self-Extractor...';
+  SFX_CAP_FINISHED='Finished.';
+  SFX_CAP_PASSWORD='Enter password for ><:';
+
+  // messages
+  SFX_MSG_RUNCHECKBOX_RUN='After extraction, run: >< ><';
+  SFX_MSG_RUNCHECKBOX_INST='After extraction, install: >< ><';
+  SFX_MSG_FILEEXISTS='>< already exists, overwrite ?';
+  SFX_MSG_ALLEXTRACTED='All files have been extracted.';
+  SFX_MSG_SELNOTEXTRACTED='The selected file(s) couldn''t get extracted.';
+  SFX_MSG_SOMENOTEXTRACTED='Some file(s) couldn''t get extracted.';
+  SFX_MSG_QUERYCANCEL='Do you want to cancel extraction?';
+  SFX_MSG_INSERTDISKVOLUME='Please insert disk volume >< in drive ><';
+
+  // about text
+  SFX_MSG_AUTHORS='The authors';
+  SFX_MSG_CREDITS='Credits to';
+  SFX_MSG_TRANSLATION=' ';
+
+  SFX_MSG_ABOUT0 =' unicode';
+  SFX_MSG_ABOUT1= #13#10'©1997-2004 by C. Bunton, E. W. Engler, M. Stephany,'#13#10+
+  '©2004-2008 by  R. Aelbrecht, R. Peters'#13#10;
+  SFX_MSG_ABOUT2=' : '#13#10+
+  '- Carl Bunton (http://www.concentric.net/~twojags)'#13#10+
+  '- Eric W. Engler (http://www.geocities.com/SiliconValley/Network/2114)'#13#10+
+  '- Markus Stephany'#13#10+
+  '- Roger Aelbrecht (http://www.drehoeksw.net)'#13#10+
+  '- Russell Peters (http://www.delphizip.org)'#13#10;
+  SFX_MSG_ABOUT3=' :'#13#10+
+  'Thomas Hoelzer, Deepu Chandy Thomas, Todd Fast,'#13#10+
+  'Didier Havelange, Frank Reichert, Angus Johnson et al.'#13#10;
+

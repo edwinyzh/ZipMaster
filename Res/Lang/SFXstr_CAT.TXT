@@ -1,0 +1,112 @@
+// language id
+LANG_ID='03 04'
+
+// fileexist dialog ================================================================
+// caption
+  SFX_Ttl_File=Confirma sobreescriure
+
+// message
+//FILEEXISTS_MESSAGE=>< ja existeix, sobreescriure'l?
+// buttons 
+  SFX_Btn_Yes=&Sí
+  SFX_Btn_No=&No
+// don't ask again check
+  SFX_Btn_DontAsk=No ho tornis a pregunt&ar
+
+
+// main dialog =====================================================================
+// caption
+  SFX_Ttl_Main=ZipBuilder SFX32
+
+// extract folder label 
+  SFX_Btn_ExtractTo=&Extreure a:
+// "files" label
+  SFX_Btn_Files=&Fitxers:
+// overwrite action label
+  SFX_Btn_Existing=Fitxers existents:
+// overwrite actions
+// confirm
+  SFX_Btn_OvrAsk=&Confirma
+// skip
+  SFX_Btn_OvrSkip=&No sobreescriguis
+// overwrite
+  SFX_Btn_OvrAll=&Sobreescriu
+// about button
+  SFX_Btn_About=&Sobre ZBSfx...
+// show files button
+  SFX_Btn_ShowFiles=Mostra &Fitxers
+// start extraction button
+  SFX_Btn_Start=&Comença
+// close button
+  SFX_Btn_Close=&Tanca
+// run after extraction checkbox
+//RUN_AFTER_EXTRACTION=Després d'extreure, executa: >< ><
+// install after extraction checkbox
+//INSTALL_AFTER_EXTRACTION=Després d'extreure, instal·la: >< ><
+
+
+// password dialog =================================================================
+// caption
+  SFX_Ttl_PWrd=Entra la contrasenya...
+
+// password message
+//PASSWORD_MESSAGE=Entra la contrasenya per ><:
+// buttons
+  SFX_Btn_Ok=D'acord
+  SFX_Btn_Cancel=&Cancel·la
+
+// language dialog =================================================================
+// button
+  SFX_Btn_Select="Seleccionar Idioma";
+
+// other strings ==================================================================
+
+  SFX_LVC_Filename="Nom del fixer";
+  SFX_LVC_Filesize="Mida";
+  // error messages
+  SFX_Err_CannotCloseFile="No es pot tancar ><";
+  SFX_Err_Archive="Error llegint el fitxer ><";
+  SFX_Err_InvalidFileName="Nom del fitxer invàlid.";
+  SFX_Err_Directory="Error en el directori ><";
+  SFX_Err_ZipUnknownComp="Tipus de compressió desconegut";
+  SFX_Err_ArchiveCorrupted="Fitxer corromput, intenteu baixar-lo de nou.";
+  SFX_Err_CannotOpenFile="No es pot obrir ><";
+  SFX_Err_CannotWriteFile="Error escrivint ><";
+  SFX_Err_Run_Run="No s'ha pogut executar >< ><";
+  SFX_Err_Run_Inst="No s'ha pogut instal·lar >< ><";
+  SFX_Err_CRC32="Error CRC32 a ><";
+  // message / dialog box titles
+  SFX_Cap_Err="Error...";
+  SFX_Cap_App="ZBSFX Auto-Extraible";
+  SFX_Cap_Browse="Si us plau, seleccioneu el directori de destí.";
+  SFX_Cap_About="Sobre ZBSfx Auto-Extraible...";
+  SFX_Cap_Finished="Acabat.";
+  SFX_Cap_Password="Entra la contrasenya per ><:";
+  // messages
+  SFX_Msg_RunCheckBox_Run="Després d'extreure, executa: >< ><";
+  SFX_Msg_RunCheckBox_Inst="Després d'extreure, instal·la: >< ><";
+  SFX_Msg_FileExists=">< ja existeix, sobreescriure'l?";
+  SFX_Msg_AllExtracted="Tots els fitxers han estat extrets.";
+  SFX_Msg_SelNotExtracted="El(s) fitxer(s) seleccionat(s) no s'han pogut extreure.";
+  SFX_Msg_SomeNotExtracted="Algun(s) fitxer(s) no s'han pogut extreure.";
+  SFX_Msg_QueryCancel="Voleu cancel·lar l'extracció?";
+  SFX_Msg_InsertDiskVolume="Per favor insereix el disc >< en la unitat: ><";
+
+   // about text
+  SFX_MSG_AUTHORS="The authors";
+  SFX_MSG_CREDITS="Credits to";
+  SFX_MSG_TRANSLATION="Unknown\nXavier Mor-Mur";
+	                          
+  SFX_MSG_ABOUT0 =" Unicode";
+  SFX_MSG_ABOUT1= "\n©1997-2004 by C. Bunton, E. W. Engler, M. Stephany,\n\
+©2004-2010 by R. Aelbrecht, R. Peters\n\n";
+  SFX_MSG_ABOUT2=" : \n\
+  - Carl Bunton (http://www.concentric.net/~twojags)\n\
+  - Eric W. Engler (http://www.geocities.com/SiliconValley/Network/2114)\n\
+  - Markus Stephany\n\
+  - Roger Aelbrecht (http://www.drehoeksw.net)\n\
+  - Russell Peters (http://www.delphizip.org)\n\n";
+  SFX_MSG_ABOUT3=" :\n\
+  Thomas Hoelzer, Deepu Chandy Thomas, Todd Fast,\n\
+  Didier Havelange, Frank Reichert, Angus Johnson et al.\n\n";
+

@@ -1,0 +1,68 @@
+
+        How to Make a New Resource File for Another Language
+        ----------------------------------------------------
+
+In the zip project, we use resource files to hold the 
+error messages that can be generated.  This lets us support 
+more than 1 language without much trouble.
+
+For now, these are the languages we support. 
+  
+   ZipMsgBR.rc - Brazilian (Portuguese)
+   ZipMsgCT.rc  - Catalan
+   ZipMsgDK.rc  - Danish
+   ZipMsgNL.rc  - Dutch
+   ZipMsgFI.rc  - Finnish
+   ZipMsgFR.rc  - French
+   ZipMsgDE.rc  - German
+   ZipMsgHU.rc  - Hungarian
+   ZipMsgNO.rc  - Norwegian
+   ZipMsgPT.rc  - Polish
+   ZipMsgSW.rc  - Swedish
+   ZipMsgES.rc  - Spanish
+   ZipMsgS1.rc  - Spanish
+   ZipMsgSI.rc  - Slovenian
+   ZipMsgUS.rc  - US / English 
+
+   ZipMsgCN.rc  - Chinese [ GB(K) - commonly used in China and Singapore for
+                            simplified Chinese writing.]
+   ZipMsgCZ.rc  - Czech
+   ZipMsgGR.rc  - Greek
+   ZipMsgIT.rc  - Italian
+   ZipMsgJP.rc  - Japanese
+   ZipMsgMY.rc  - Malaysia
+   ZipMsgRO.rc  - Romanian
+   ZipMsgRU.rc  - Russian
+   ZipMsgYU.rc  - Serbian (Yugoslavia)
+   ZipMsgTW.rc  - Taiwanese [Big5 - commonly used in Taiwan and Hong Kong for
+                             traditional Chinese writing.]
+
+We would like YOU to help us by porting the error messages
+from English into another language that we don't support yet.
+
+The files ZipMsg.h holds the resource Id numbers, and ZipMsgUS.rc
+holds the source for the English text error messages.
+
+To make a resource file for a new language, follow these
+steps:
+
+1) select a 2 letter code for your language
+   example: "DE" for German (Deutch)
+
+2) Create a new source file for your messages:
+   COPY ZipMsgUS.rc ZipMsgDE.rc
+
+3) Edit your new file - translate the text to your language
+   NOTEPAD ZipMsgDE.RC
+
+4) Compile your source to make a RES file:
+   C:>brcc32 ZipMsgDE.RC
+
+5) E-mail me your new .RC and .RES files! Tell me the full 
+   name of the new language, and your full name and e-mail address.
+   I will refer to your name and address in the help file unless
+   you tell me not to.
+
+  
+Eric Engler
+englere@abraxis.com

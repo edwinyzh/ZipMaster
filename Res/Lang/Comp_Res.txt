@@ -1,0 +1,39 @@
+
+Compiling resource files
+
+Language	Country		Code page	locale
+'BR'		'Brazilian'	1252		$0416 
+'CN'		'Chinese'	 936		$0804 
+'CT'		'Catalan'	1252		$0403 
+'CZ'		'Czech'		1250		$0405 
+'DE'		'German'	1252		$0407 
+'DK'		'Danish'	1252		$0406 
+'ES'		'Spanish'	1252		$040A 
+//'ES'		'Spanish'	1252		$440A 
+'FI'		'Finnish'	1252		$040B 
+'FR'		'French'	1252		$040C 
+'GR'		'Greek'		1253		$0408 
+'HU'		'Hungarian'	1250		$040E 
+'IT'		'Italian'	1252		$0410 
+'JP'		'Japanese'	 932		$0411 
+'KO'		'Korean'	 949		$0412 
+'MY'		'Malaysian'	 874		$043E 
+'NL'		'Dutch'		1252		$0413   
+'NO'		'Norwegian'	1252		$0414 
+'PL'		'Polish'	1250		$0415 
+'RO'		'Romanian'	1252		$0418 
+'RU'		'Russian'	1251		$0419 
+//'S1'		'Spanish'	1252		$0C0A 
+'SI'		'Slovenian'	1250		$0424  
+//'SP'		'Spanish'	1252		$040A 
+'SW'		'Swedish'	1252		$041D 
+'TW'		'Taiwanese'	 950		$0404 
+'US'		'default US'	1252		$0409 
+'YU'		'Serbian'	1250		$081A 
+
+
+Brcc32 -cnnnn -lxxxx ZipMsg??.rc
+nnnn is source code page (decimal) - not needed if same as current
+xxxx is destination locale id (hexadecimal) - not needed 
+     if is specified in STRINGTABLE LANGUAGE or is same as current
+?? is language

@@ -1,0 +1,48 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{F6EB3FB0-ED30-4607-9861-E1817F2F6221}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ZipMasterR.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ZipMasterD.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ZipMasterR">
+        <MSBuild Projects="ZipMasterR.dproj"/>
+    </Target>
+    <Target Name="ZipMasterR:Clean">
+        <MSBuild Projects="ZipMasterR.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ZipMasterR:Make">
+        <MSBuild Projects="ZipMasterR.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ZipMasterD">
+        <MSBuild Projects="ZipMasterD.dproj"/>
+    </Target>
+    <Target Name="ZipMasterD:Clean">
+        <MSBuild Projects="ZipMasterD.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ZipMasterD:Make">
+        <MSBuild Projects="ZipMasterD.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ZipMasterR;ZipMasterD"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ZipMasterR:Clean;ZipMasterD:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ZipMasterR:Make;ZipMasterD:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

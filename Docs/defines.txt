@@ -1,0 +1,14 @@
+ZipMaster can be built with compiler conditionals that allow you to change how some things operate.
+
+The default settings are
+
+  [X] USE_COMPRESSED_STRINGS
+  [_] STATIC_LOAD_DELZIP_DLL
+
+Set USE_COMPRESSED_STRINGS to store the string resources compressed in the .res file instead of as ResourceStrings.
+ 
+When you want to work with static binding define the STATIC_LOAD_DELZIP_DLL directive.
+Make sure that the component, and the Delphi IDE, can find DelZip192.dll .
+ ( Either in the Windows System directory or in the same directory as your application executable. 
+The IDE may require it to be either in the 'bpl' or the 'bin' directory depending upon version. )
+

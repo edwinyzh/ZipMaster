@@ -1,0 +1,95 @@
+// language id
+LANG_ID='15 04'
+
+// fileexist dialog ================================================================
+// caption
+  SFX_Ttl_File=PotwierdŸ zast¹pienie
+
+// buttons 
+  SFX_Btn_Yes=&Tak
+  SFX_Btn_No=&Nie
+// don't ask again check
+  SFX_Btn_DontAsk=Nie pytaj wiêcej o potwierdzenie
+
+
+// main dialog =====================================================================
+// caption
+  SFX_Ttl_Main=Delphi Zip SFX32
+
+// extract folder label 
+  SFX_Btn_ExtractTo=&Rozpakuj do:
+// "files" label
+  SFX_Btn_Files=&Pliki:
+// overwrite action label
+  SFX_Btn_Existing=istniej¹ce pliki:
+// overwrite actions
+// confirm
+  SFX_Btn_OvrAsk=&Zamieñ
+// skip
+  SFX_Btn_OvrSkip=&Nie zamieniaj
+// overwrite
+  SFX_Btn_OvrAll=&Zamieñ
+// about button
+  SFX_Btn_About=&O DelZip...
+// show files button
+  SFX_Btn_ShowFiles=Wyœwietl p&liki
+// start extraction button
+  SFX_Btn_Start=&Start
+// close button
+  SFX_Btn_Close=Z&amknij
+
+// password dialog =================================================================
+// caption
+  SFX_Ttl_PWrd=WprowadŸ has³o...
+
+// password message
+//PASSWORD_MESSAGE=Podaj has³o dla ><:
+// buttons
+  SFX_Btn_Ok=Ok
+  SFX_Btn_Cancel=&Anuluj
+
+// language dialog =================================================================
+// button
+  SFX_Btn_Select='Wybierac jezyk';
+
+// other strings ==================================================================
+
+  SFX_LVC_FILENAME='Pliki';
+  SFX_LVC_FILESIZE='Rozmiar';
+
+  // error messages
+  SFX_ERR_CANNOTCLOSEFILE='Nie mo¿na zamkn¹æ ><';
+  SFX_ERR_ARCHIVE='B³¹d odczytu archiwum ><';
+  SFX_ERR_INVALIDFILENAME='NIew³aœciwa nazwa zbioru.';
+  SFX_ERR_DIRECTORY='B³¹d w katalogu ><';
+  SFX_ERR_ZIPUNKNOWNCOMP='Nieznany rodzaj kompresji';
+  SFX_ERR_ARCHIVECORRUPTED='Archiwum uszkodzone, proszê spróbowaæ pobraæ je ponownie.';
+  SFX_ERR_CANNOTOPENFILE='Nie mo¿na otworzyæ zbioru ><';
+  SFX_ERR_CANNOTWRITEFILE='Nie mogê zapisaæ do ><';
+  SFX_ERR_RUN_RUN='Program nie mo¿e byc uruchomiony >< ><';
+  SFX_ERR_RUN_INST='Nie moge zainstalowaæ >< ><';
+  SFX_ERR_CRC32='B³¹d CRC32 w ><';
+
+  // message / dialog box titles
+  SFX_CAP_ERR='B³¹d...';
+  SFX_CAP_APP='DelZip Self-Extractor';
+  SFX_CAP_BROWSE='Prosze wybraæ katalog docelowy';
+  SFX_CAP_ABOUT='About DelZip Self-Extractor...';
+  SFX_CAP_FINISHED='Zakoñczono.';
+  SFX_CAP_PASSWORD='Podaj has³o dla ><:';
+
+  // messages
+  SFX_MSG_RUNCHECKBOX_RUN='Po rozpakowaniu, wykonaj: >< ><';
+  SFX_MSG_RUNCHECKBOX_INST='Po rozpakowaniu, instaluj: >< ><';
+  SFX_MSG_FILEEXISTS='>< istnieje, zamieniæ?';
+  SFX_MSG_ALLEXTRACTED='Wszystkie zbiory zosta³y rozpakowane.';
+  SFX_MSG_SELNOTEXTRACTED='Nie uda³o siê rozpakowaæ wybranych zbiorów.';
+  SFX_MSG_SOMENOTEXTRACTED='Nie uda³o siê rozpakowaæ niektóych zbiorów.';
+  SFX_MSG_QUERYCANCEL='Czy chcesz przerwaæ proces rozpakowania?';
+  SFX_MSG_INSERTDISKVOLUME='Proszê w³o¿yæ noœnik (dysk, wolumin) >< do napêdu ><';
+
+  // about text
+  SFX_MSG_AUTHORS='The authors';
+  SFX_MSG_CREDITS='Credits to';
+  SFX_MSG_TRANSLATION='Wersja polska - Mariusz Dec';
+
