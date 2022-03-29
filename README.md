@@ -1,14 +1,12 @@
 # ZipMaster
 TZipMaster is a Delphi component for writing/reading .zip archives. This repository is based on `ZipMaster 1.9.2.0021 29Mar2016 10:55` and contains my fixes.
 
-## The original description
-TZipMaster is a non-visual VCL wrapper created by Chris Vleghert and Eric W. Engler for their freeware Delphi Zip.
-Those DLLs are based on the InfoZip Official Freeware Zip/Unzip source code, but are NOT equivalent to InfoZip's DLLs.
-
-The InfoZip source code has been modified to enhance their ease-of-use, power, and flexibility for use with Delphi and C++ Builder.
+- TZipMaster has a full set of features for writing/reading zip archives, most of the logics are implemented in Delphi, but it relies on a 300+KB DLL for the underlying operations.
+- TZipMaster supports both 64bit and 32bit Delphi compilers.
+- TZipMaster supports Zip64 (for zip files larger than 4GB).
 
 # History
-After Chris Vleghert and Eric W. Engler, Russell Peters was the maintainer of ZipMaster, at least since around 2005 (when I started using it in my projects).
+Russell Peters was the maintainer of ZipMaster when I started using it around 2005). Before that, Chris Vleghert and Eric W. Engler were the original authors I guess. 
 
 On 2019, Russell Peters posted to the DelphiZip/ZipMaster mail list (https://www.freelists.org/post/delphizip/Anyone-willing-to-take-over-development-and-maintenance-of-ZipMaster):
 
